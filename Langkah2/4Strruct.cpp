@@ -10,9 +10,9 @@ struct Mahasiswa {
 int main() {
     
     int n;
-    cout << "Masukkan Jumlah mahasiswa: "; cin >> n;
+    cout << "Masukkan Jumlah mahasiswa: "; cin >> n; // jika input saya taruh di bawah dekalrasi struct maka akan ERROR!.
     
-    Mahasiswa mhs[n];
+    Mahasiswa mhs[n]; // saya letak di bawah user input agar bisa memiliki nilai yang di inputkan
     for (int i = 0; i < n; i++) {
         cout << "input data mahasiswa : " << i+1 << endl;
         cout << "Masukkan nama      : "; cin >> mhs[i].nama;

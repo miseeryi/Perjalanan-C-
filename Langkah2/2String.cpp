@@ -16,5 +16,5 @@ int main(){
 
     cout << "Length of greeting: " << sapa.length() << endl;
 
-    cout << "First character of greeting: " << greeting[1] << endl;
+    cout << "First character of greeting: " << greeting[0] << endl; //angka yang ada didalam [] adalah huruf apa yang ada di fungsi, angka di mulai dari indeks 0, 0 sama dengan huruf paling awal.
 }

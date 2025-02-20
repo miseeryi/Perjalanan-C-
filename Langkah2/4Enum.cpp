@@ -12,15 +12,14 @@ int main() {
         cout << "Hari ini adalah hari senin" << endl;
     }
 
-    cout << endl <<endl << endl;
+    cout << endl <<endl;
     
     Level status = High;
     cout << "Level anda sekarang adalah : " << status << endl;
 
-    cout << endl <<endl << endl;
+    cout << endl <<endl;
 
     Warna colour = Warna::Biru;
-
     if (colour == Warna::Merah) {
         cout << "Warna anda adalah biru" << endl;
     }
@@ -30,9 +29,4 @@ int main() {
     else if (colour == Warna::Biru) {
         cout << "Warna anda adalah biru" << endl;
     }
-
-
-
-    
-
 }
